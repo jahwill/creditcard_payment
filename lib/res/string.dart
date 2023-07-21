@@ -46,6 +46,6 @@ class Strings {
   String get cardholderName => "Cardholder name:";
   String get cvc => "CVC code:";
   String get expiresDate => "Expiry date:";
-  String get saveCard => "'Save card data for future payments'";
+  String get saveCard => "Save card data for future payments";
   String get creditCard => "credit Card";
 }

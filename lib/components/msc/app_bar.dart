@@ -48,7 +48,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
                     SvgIcon(
                       R.png.arrowLeftIcon.svg,
                       color: theme.black,
-                      // size: Sizes.hit,
+                      size: 20,
                     ),
                     onPressed: onTapLeadingIcon ?? () => Navigator.pop(context),
                     radius: Corners.s0,

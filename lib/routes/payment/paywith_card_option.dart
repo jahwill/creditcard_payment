@@ -96,43 +96,51 @@ class _AddNewCardScreenState extends State<AddNewCardScreen> {
                               color: theme.primary),
                           tabs: [
                             Tab(
-                              child: Row(
-                                children: [
-                                  SizedBox(
-                                    height: 30,
-                                    child: SvgPicture.asset(
-                                      R.png.card.svg,
-                                      color: selectedTabIndex == 0
-                                          ? Colors.white
-                                          : theme.black,
+                              child: SizedBox(
+                                width: context.widthPx * 0.4,
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    SizedBox(
+                                      height: 30,
+                                      child: SvgPicture.asset(
+                                        R.png.card.svg,
+                                        color: selectedTabIndex == 0
+                                            ? Colors.white
+                                            : theme.black,
+                                      ),
                                     ),
-                                  ),
-                                  const HSpace(5),
-                                  Text(
-                                    R.S.creditCard,
-                                    style: TextStyles.body3,
-                                  ),
-                                ],
+                                    const HSpace(5),
+                                    Text(
+                                      R.S.creditCard,
+                                      style: TextStyles.body3,
+                                    ),
+                                  ],
+                                ),
                               ),
                             ),
                             Tab(
-                              child: Row(
-                                children: [
-                                  SizedBox(
-                                    height: 30,
-                                    child: SvgPicture.asset(
-                                      R.png.apple.svg,
-                                      color: selectedTabIndex == 1
-                                          ? Colors.white
-                                          : theme.black,
+                              child: SizedBox(
+                                width: context.widthPx * 0.4,
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    SizedBox(
+                                      height: 30,
+                                      child: SvgPicture.asset(
+                                        R.png.apple.svg,
+                                        color: selectedTabIndex == 1
+                                            ? Colors.white
+                                            : theme.black,
+                                      ),
                                     ),
-                                  ),
-                                  const HSpace(5),
-                                  Text(
-                                    R.S.pay,
-                                    style: TextStyles.body3,
-                                  ),
-                                ],
+                                    const HSpace(5),
+                                    Text(
+                                      R.S.pay,
+                                      style: TextStyles.body3,
+                                    ),
+                                  ],
+                                ),
                               ),
                             ),
                           ])),

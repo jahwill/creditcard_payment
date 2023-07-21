@@ -39,7 +39,7 @@ class _LogInScreenState extends State<LogInScreen> with FormMixin {
                 ),
                 const VSpace(15),
                 CustomFormTextInput(
-                  label: R.S.singMeUp,
+                  label: R.S.password,
                 ),
                 const VSpace(10.0),
                 Align(

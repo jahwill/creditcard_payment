@@ -6,7 +6,7 @@ class IconRes {
   //svg icon part
   String get appLogo => 'app_logo';
   String get splashImage => 'pro';
-  String get arrowLeftIcon => 'arrow_back';
+  String get arrowLeftIcon => 'left_ios_arrow';
   String get google => 'google';
   String get apple => 'apple_icon';
   String get card => 'card_icon';
