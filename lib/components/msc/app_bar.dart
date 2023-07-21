@@ -54,7 +54,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
                     radius: Corners.s0,
                   ),
             )
-          : const SizedBox.shrink(),
+          : const SizedBox.shrink(), //
       title: titleWidget ??
           (StringHelper.isEmpty(title)
               ? null
